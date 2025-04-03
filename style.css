@@ -9,11 +9,11 @@ body {
 
 .calculator {
     background: #fff;
-    padding: 30px;
+    padding: 50px;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     text-align: center;
-    width: 400px; /* Increased width */
+    width: 500px; /* Increased width */
     height: 550px; /* Increased height */
 }
 
@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-    background: #555;
+    background: #76b898;
 }
 
 .equal {
