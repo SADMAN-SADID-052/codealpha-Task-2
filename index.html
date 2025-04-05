@@ -7,14 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
    
     <div class="calculator">
-
-      
         <input type="text" id="display" disabled>
         <div class="buttons">
             <button class="clear" onclick="clearDisplay()">C</button>
+            <button onclick="backspace()">&#x232B;</button> <!-- Backspace Button -->
             <button onclick="appendValue('/')">/</button>
             <button onclick="appendValue('*')">*</button>
             <button onclick="appendValue('-')">-</button>

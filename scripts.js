@@ -1,7 +1,7 @@
 function appendValue(value) {
     let display = document.getElementById('display');
     
-    // Prevent multiple decimal points in a number
+
     if (value === '.' && display.value.slice(-1) === '.') {
         return;
     }
@@ -20,4 +20,10 @@ function calculate() {
     } catch (error) {
         alert('Invalid Expression');
     }
+}
+
+
+function backspace() {
+    let display = document.getElementById('display');
+    display.value = display.value.slice(0, -1);
 }
